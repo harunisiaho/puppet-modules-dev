@@ -1,0 +1,26 @@
+{
+  "name": "jcannon-ovirt",
+  "version": "0.0.4",
+  "source": "git://github.com/jasonc/puppet-ovirt.git",
+  "author": "jcannon",
+  "license": "Apache License, Version 2.0",
+  "summary": "A puppet module to install oVirt.",
+  "description": "A puppet module to install oVirt.",
+  "project_page": "https://github.com/jasonc/puppet-ovirt",
+  "dependencies": [
+
+  ],
+  "types": [
+
+  ],
+  "checksums": {
+    "Modulefile": "de84883058851d6522d362c56d695053",
+    "README.md": "d450ff3f459fbb51cac66cb2614a80ff",
+    "manifests/engine.pp": "28e43c8cf867971f67e6f3e1186fa4fd",
+    "manifests/init.pp": "8a93e22be8b6407128698edbede94e3a",
+    "manifests/node.pp": "552885256057510e0f6ec70bacbb28d3",
+    "spec/spec_helper.rb": "a55d1e6483344f8ec6963fcb2c220372",
+    "templates/answers.erb": "33f9304206619c2f5834724e37bbd32c",
+    "tests/init.pp": "ae255905cfcd1d1320c954d807d1a50b"
+  }
+}

@@ -1,0 +1,20 @@
+[main]
+    user = root
+    group = root
+    report = true
+    reports = log,store
+    certname = <%= @puppetserver %>
+
+[master]
+    vardir = /opt/puppetlabs/server/data/puppetserver
+    logdir = /var/log/puppetlabs/puppetserver
+    rundir = /var/run/puppetlabs/puppetserver
+    pidfile = /var/run/puppetlabs/puppetserver/puppetserver.pid
+    codedir = /etc/puppetlabs/code
+    certname = <%= @puppetserver %>
+
+[agent]
+    pluginsync = false
+    report = true
+    server = <%= @puppetserver %>
+    runinterval= 3600
